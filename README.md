@@ -1,18 +1,26 @@
-# D-Robotics RDK X5 Robotic Development Kit
-![](https://github.com/YahboomTechnology/RDK-X5-Board/blob/main/RDK-X5-Board.jpg)
+# DOFBOT SE AI Vision Robotic Arm with ROS2 Python Programming (Virtual Machine Version)
+![](https://github.com/YahboomTechnology/DOFBOT-SE/blob/main/DOFBOT-SE_RoboticArm_Yahboom.jpg)
 # Introduction
-RDK X5 is equipped with Sunrise5 intelligent computing chip, on board 8-core A55 CPU, and comes with almost the same interface configuration as Raspberry Pi. It provides up to 10TOPS equivalent computing power, supports Ubuntu22.04 system, and can efficiently run cutting-edge AI models such as Transformer, RWKV, Occupancy Networks, Stereo Vision, Perception, etc., to meet complex computing needs such as robot navigation, environmental perception, and multimodal interaction, so that your projects can be quickly implemented. D-robotics provides it with more than 100 open source algorithms and applications to help customers develop their own projects efficiently.
+DOFBOT-SE is a 6DOF robotic arm developed by Yahboom based on a virtual machine system. It does not require a embedded development board (Jetson NANO/Raspberry Pi), generates control decisions through a PC-side virtual machine, and is driven by an STM32 controller to implement various functions. We use the ROS robot control system to simplify the complex motion control of the 6DOF serial bus servo, enabling the forward and reverse solutions, motion planning, MoveIt simulation, collision detection and other functions to be realized. It comes with a 3MP camera, combined with machine vision algorithms, which not only enables color recognition tracking and grabbing, but also has many functions such as model training, garbage sorting, and gesture recognition. Whether you are a beginner or an experienced developer, DOFBOT-SE is a cost-effective robotics learning kit for you.
 # Features
-* Complete SDK and tool chain: Provides D-Robotics NodeHub modular development platform and RDK Studio integrated IDE tool chain to greatly improve development efficiency and shorten development cycle.
-* High-speed data transmission: Equipped with USB 3.0, Gigabit Ethernet, and a 40-pin pin interface similar to Raspberry Pi, it supports the access of peripherals such as high-speed cameras and lidar.
-* Open source sample projects: Covering typical applications such as SLAM, target detection, voice interaction, and robotic arm control to help you get started quickly.
-* Professional technical support: The D-Robotics developer community provides tutorials, forums, and online documents to ensure the smooth progress of the project.
-* Widely applicable scenarios: Can be used in college AI and robotics courses, competition platforms, research projects, visual sorting and other projects.
+* Virtual machine system development
+Based on the design of the virtual machine system, control decisions are generated through the PC-side virtual machine, without the need for embedded development boards, simplifying the learning and use process. (Mac not supported)
+* ROS robot control system
+The integrated ROS system simplifies the complex motion control of the 6 DOF serial bus servo, and supports functions such as forward solution, inverse solution, and motion planning.
+* AI vision functions
+Provides MoveIt simulation, collision detection, color recognition tracking, item grabbing, gesture recognition and many other functions.
+* Various remote control methods
+Yahboom provides multi-functional mobile APP, wireless handle, and PC software, which can be used to control the robotic arm.
+* Professional hardware configuration
+Include a 30MP camera module, a multi-function expansion board, 5*15KG bus servos + 1*6KG bus servos, and the entire robotic arm is made of white anodized aluminum, which is beautiful and durable.
 # Required Best Buy Links
-[Click here](https://category.yahboom.net/products/rdk-x5)
+[Click here](https://category.yahboom.net/products/dofbot-se)
 
 # Please Contact Us
 If you have any problem when using our robot after checking the tutorial, please contact us.
+
+### WhatsApp:
++86 18682378128
 
 ### Technical support email: 
 support@yahboom.com
